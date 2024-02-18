@@ -11,33 +11,7 @@
     <title>
 		<b:if cond='data:blog.pageType == &quot;index&quot;'>
 			<data:blog.pageTitle/>
-		<b:else/>
-			<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
-				<data:blog.pageName/> - <data:blog.title/>
-			<b:else/>
-				ERROR 404 - <data:blog.title/> 
-			</b:if>
-		</b:if>
-    </title>
-    <!-- Description and Keywords (start) -->
-    <b:if cond='data:blog.pageType == &quot;index&quot;'>
-    <meta content='YOUR DESCRIPTION HERE' name='description'/>
-    </b:if>
-    <meta content='YOUR KEYWORDS HERE' name='keywords'/>
-    <!-- Description and Keywords (end) -->
-    <b:if cond='data:blog.pageType == &quot;item&quot;'>
-        <meta expr:content='data:blog.pageName' property='og:title'/>
-        <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
-        <meta content='article' property='og:type'/>
-    </b:if>
-    <b:if cond='data:blog.postImageUrl'>
-        <meta expr:content='data:blog.postImageUrl' property='og:image'/>
-    <b:else/>
-    <b:if cond='data:blog.postImageThumbnailUrl'>
-        <meta expr:content='data:blog.postImageThumbnailUrl' property='og:image'/>
-    </b:if></b:if>
-    <b:if cond='data:blog.metaDescription != &quot;&quot;'>
-        <meta expr:content='data:blog.metaDescription' name='og:description'/>
+
     </b:if>
     <meta expr:content='data:blog.title' property='og:site_name'/>
     <meta expr:content='data:blog.homepageUrl' name='twitter:domain'/>
