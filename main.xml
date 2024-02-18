@@ -3,7 +3,6 @@
 
 
 
-    <meta expr:content='data:blog.pageName' name='twitter:title'/>
     <b:if cond='data:blog.postImageUrl'>
       <meta content='summary_large_image' name='twitter:card'/>
       <meta expr:content='data:blog.postImageUrl' name='twitter:image'/>
