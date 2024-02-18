@@ -5,12 +5,7 @@
   <head>
     <link href='https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali&amp;display=swap' rel='stylesheet'/>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
-    <link href='//fonts.googleapis.com/css?family=Noto Serif Bengali:400,700|Droid+Sans:400,700' media='all' rel='stylesheet' type='text/css'/>
-    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'/>
-    <b:include data='blog' name='all-head-content'/>
-    <title>
-		<b:if cond='data:blog.pageType == &quot;index&quot;'>
-			<data:blog.pageTitle/>
+
 
     </b:if>
     <meta expr:content='data:blog.title' property='og:site_name'/>
