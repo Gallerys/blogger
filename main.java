@@ -1,8 +1,6 @@
 
 
 
-
-
 <meta content='summary_large_image' name='twitter:card'/>
       <meta expr:content='data:blog.postImageUrl' name='twitter:image'/>
     <b:else/>
