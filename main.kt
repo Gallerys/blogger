@@ -19,7 +19,7 @@ override fun onScroll(
     if (abs(minSwipeY) > 50) {
         if (abs(distanceX) > abs(distanceY)) {
             // Horizontal swipe
-            if (minSwipeX > 0) {
+            if (distanceX > 0) {
                 // Swipe right for forward (adjust the time as needed)
                 player.seekTo(player.currentPosition + 10000)
             } else {
