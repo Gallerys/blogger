@@ -7,7 +7,6 @@
     android:gravity="center"
     tools:context=".MainActivity"
     tools:ignore="UseCompoundDrawables">
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
