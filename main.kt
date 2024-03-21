@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    tools:context=".MainActivity"
-    tools:ignore="UseCompoundDrawables">
-    <Button
+    android:layout_height="match_parent">
+
+    <!-- Centered TextView -->
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
-        android:layout_marginStart="100dp"
-        />
+        android:text="Centered Text"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/scoreId"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="@string/scoreText"
-        android:textSize="24sp"
-        android:textStyle="italic"
-        android:gravity="center"
-        android:layout_margin="20dp"/>
+    <!-- Bottom right button -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@android:color/transparent"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintMarginBottom="16dp"
+        app:layout_constraintMarginEnd="16dp" />
 
-    <ImageView
-        android:id="@+id/mainSpinnerId"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:src="@drawable/spinner"
-        android:contentDescription="@string/spinnerImage" />
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
