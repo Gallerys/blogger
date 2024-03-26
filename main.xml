@@ -1,3 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @keyframes flapWings {
+      0%, 100% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(30deg);
+      }
+    }
+
+    .parrot {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background: url('parrot.png') center/cover;
+      animation: flapWings 1s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="parrot"></div>
+</body>
+</html>
+
+
+
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
