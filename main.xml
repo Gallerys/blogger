@@ -2385,7 +2385,7 @@ user is not using shrink to fit then we expand the header.
           </b:widget>
           <b:widget id='HTML16' locked='false' title='অর্থনীতি' type='HTML' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='content'>6/অর্থনীতি/post-grid</b:widget-setting>
+              <b:widget-setting name='content'>3/অর্থনীতি/post-grid</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <!-- only display title if it's non-empty -->
@@ -2433,7 +2433,7 @@ user is not using shrink to fit then we expand the header.
           </b:widget>
           <b:widget id='HTML8' locked='false' title='শিক্ষা ও স্বাস্থ্য' type='HTML'>
             <b:widget-settings>
-              <b:widget-setting name='content'>6/শিক্ষা ও স্বাস্থ্য/post-grid</b:widget-setting>
+              <b:widget-setting name='content'>3/শিক্ষা ও স্বাস্থ্য/post-grid</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
   <!-- only display title if it's non-empty -->
