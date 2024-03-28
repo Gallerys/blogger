@@ -2332,6 +2332,22 @@ user is not using shrink to fit then we expand the header.
       <b:if cond='data:blog.canonicalUrl == data:blog.canonicalHomepageUrl'> 
         <div class='clear'/>
         <b:section class='featured-sec' id='featured-sec2' name='Featured Widgets 2' showaddelement='yes'>
+          <b:widget id='HTML21' locked='false' title='লাইফস্টাইল' type='HTML'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>6/খ&#2503;ল&#2494;ধ&#2497;ল&#2494;/post-grid</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+          </b:widget>
           <b:widget id='HTML1' locked='false' title='খেলাধুলা' type='HTML'>
             <b:widget-settings>
               <b:widget-setting name='content'>6/খ&#2503;ল&#2494;ধ&#2497;ল&#2494;/post-grid</b:widget-setting>
